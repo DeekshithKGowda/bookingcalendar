@@ -54,6 +54,28 @@
     .fc-timegrid-slot {
       height: auto; /* Let it adjust based on the content */
     }
+
+    /* Custom CSS to increase height of all time slots from 6 AM to 11 PM */
+    .fc-timegrid-slot[data-time="06:00:00"],
+    .fc-timegrid-slot[data-time="07:00:00"],
+    .fc-timegrid-slot[data-time="08:00:00"],
+    .fc-timegrid-slot[data-time="09:00:00"],
+    .fc-timegrid-slot[data-time="10:00:00"],
+    .fc-timegrid-slot[data-time="11:00:00"],
+    .fc-timegrid-slot[data-time="12:00:00"],
+    .fc-timegrid-slot[data-time="13:00:00"],
+    .fc-timegrid-slot[data-time="14:00:00"],
+    .fc-timegrid-slot[data-time="15:00:00"],
+    .fc-timegrid-slot[data-time="16:00:00"],
+    .fc-timegrid-slot[data-time="17:00:00"],
+    .fc-timegrid-slot[data-time="18:00:00"],
+    .fc-timegrid-slot[data-time="19:00:00"],
+    .fc-timegrid-slot[data-time="20:00:00"],
+    .fc-timegrid-slot[data-time="21:00:00"],
+    .fc-timegrid-slot[data-time="22:00:00"],
+    .fc-timegrid-slot[data-time="23:00:00"] {
+      height: 120px !important; /* Increase height for all slots from 6 AM to 11 PM */
+    }
   </style>
 </head>
 <body>
